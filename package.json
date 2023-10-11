@@ -1,0 +1,20 @@
+{
+  "name": "teditor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.10.0",
+    "@parcel/transformer-webmanifest": "^2.10.0",
+    "parcel": "^2.10.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}

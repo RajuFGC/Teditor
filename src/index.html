@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My editor</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./favicon.ico">
+<meta name="description" content="my simple editor">
+<meta property="og:tittle" content="simple editor">
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta property="og:image" content="./og.png">
+<meta property="og:description" content="my simple editor">
+</head>
+<body class="  flex flex-col gap-10 justify-center items-center bg-[#343211] min-h-screen">
+  <main class="w-full max-w-md p-4">
+  <h1 class="font-poppins mb-3 font-bold text-2xl text-dragonball ">My editor<span class="inline-block animate-wiggle">🐱‍👤<span class="text-green-600">♻</span>💾</span></h1>
+
+<textarea class=" textarea--js w-full  h-52 bg-slate-200  p-5 text-sm focus:outline-none  border rounded-lg font-normal text-black">
+</textarea>
+<div class="flex justify-end gap-2 ">
+<button type="button" class=" load--js  focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 transition-colors duration-300  font-medium rounded-lg text-sm px-5 py-2.5  ">Load</button>
+<button type="button" class=" save--js  focus:outline-none text-white bg-purple-700 hover:bg-purple-800 transition-colors duration-300  font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Save</button>
+<button class="check--js bg-orange-700 hover:bg-orange-800 transition-colors duration-300   text-white font-medium rounded-lg text-sm px-5 py-2.5 ">Check JS</button>
+</div>
+</main>
+<footer>
+  <img class="w-20" src="./wtf-mini.svg" alt="Projekt postał w ramach srodków chęci nauki">
+</footer>
+<script defer src="./main.js" type="module"></script>
+</body>
+</html>
