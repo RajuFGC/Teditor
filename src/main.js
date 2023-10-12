@@ -9,6 +9,8 @@ return total;
 }
 console.log(sum(numbers));
 
+import JSConfetti from 'js-confetti'
+const jsConfetti = new JSConfetti()
 
 const textarea = document.querySelector('.textarea--js');
 const loadButton = document.querySelector('.load--js');
@@ -26,8 +28,6 @@ let color = 'green'
 checkButton.addEventListener('click', () => {
 const textLength = textarea.value.length;
 textarea.classList.remove(`text-${color}-500`)
-
-
 if (textLength <= 10) {
   color = 'red'
 } else if (textLength > 10 && textLength <= 20) {
@@ -36,7 +36,7 @@ if (textLength <= 10) {
   color = 'green'
 }
 textarea.classList.add(`text-${color}-500`)
-})
+});
 
 saveButton.addEventListener('click', () => {
   localStorage.setItem('content', textarea.value)
@@ -44,6 +44,9 @@ saveButton.addEventListener('click', () => {
 
 loadButton.addEventListener('click', () => {
   textarea.value = localStorage.getItem('content')
+  jsConfetti.addConfetti({
+    emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
+ })
 })
 
 
