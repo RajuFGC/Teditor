@@ -5,8 +5,11 @@ This simple-editor checks the amount of letters in the textarea and depending on
 # Technologie:
                 
 -`Html`
+
 -`Flex`
+
 -`CSS`
+
 -`Javascript`
                 
 Please visit it [t-editor](https://t-editor.netlify.app)
