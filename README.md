@@ -4,7 +4,7 @@ This simple-editor checks the amount of letters in the textarea and depending on
 
 # Technologie:
                 
--`Html`                
+-`Html`
 -`Flex`
 -`CSS`
 -`Javascript`
