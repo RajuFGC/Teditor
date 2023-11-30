@@ -9,7 +9,7 @@
                 -`Flex`
                 -`CSS`
                 -`Javascript`
-                Please visit it [t-editor] (
+                Please visit it [t-editor] (https://t-editor.netlify.app)
 
 
                 
