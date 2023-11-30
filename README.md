@@ -5,10 +5,10 @@
                 the content of the textarea and after refreshing the site the
                 user can load its content back to the textarea.  
                 ##Technologie:
-                `Html`
-                `Flex`
-                `CSS`
-                `Javascript`
+                -`Html`
+                -`Flex`
+                -`CSS`
+                -`Javascript`
 
 
                 
