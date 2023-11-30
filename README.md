@@ -4,7 +4,7 @@
                 accordingly from black to blue, red and green. It can also save
                 the content of the textarea and after refreshing the site the
                 user can load its content back to the textarea.  
-                ##Technologie:
+                # Technologie:
                 -`Html`
                 -`Flex`
                 -`CSS`
